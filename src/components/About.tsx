@@ -17,7 +17,7 @@ export default function About() {
           <div className="overflow-hidden group animate-on-scroll order-2 lg:order-1 bg-rose-600 rounded-sm relative">
             <div className="relative w-full h-[500px]">
                 <Image
-                src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/e2b8cb07-8567-4cc2-a7f9-4d7c31698b16_1600w.jpg"
+                src="/images/freepik__a-lone-contractor-of-south-asian-descent-wearing-a__63822.png"
                 alt="Modern Glass Bathroom"
                 fill
                 className="transition duration-1000 group-hover:scale-105 filter object-cover brightness-95"

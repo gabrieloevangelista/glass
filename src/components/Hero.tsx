@@ -8,7 +8,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/92bad968-bd99-4d0f-8b23-3e9ffc455334_3840w.jpg"
+          src="/images/hero.png"
           alt="Modern Bathroom Glass Shower Screen"
           fill
           className="object-cover opacity-40"

@@ -2,19 +2,19 @@ import Image from 'next/image';
 
 const projects = [
   {
-    image: "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/b59f3086-f7ff-4bc7-b336-47ebebbc293d_800w.jpg",
+    image: "/images/freepik__glass-shower-box-corner-installation-frameless-gla__63816.png",
     category: "Shower Screen",
     title: "Frameless Glass Installation",
     location: "Beverly Hills, CA"
   },
   {
-    image: "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/3e737cde-8e7c-4f70-83f5-5c0df30de623_800w.jpg",
+    image: "/images/freepik__glass-shower-box-frameless-clear-tempered-glass-ch__63815.png",
     category: "Mirrors",
     title: "Custom Vanity Mirror",
     location: "Santa Monica, CA"
   },
   {
-    image: "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/7d669b1c-c409-4688-b6a4-b01c343a8401_800w.jpg",
+    image: "/images/freepik__glass-shower-box-frosted-glass-panels-brushed-nick__63814.png",
     category: "Splashback",
     title: "Kitchen Glass Splashback",
     location: "West Hollywood, CA"
