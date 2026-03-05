@@ -1,6 +1,6 @@
 "use client";
 import { useState } from 'react';
-import { Square, Phone, Menu, X, ArrowRight } from 'lucide-react';
+import { Square, Phone, Menu, X, ArrowRight, ShowerHead } from 'lucide-react';
 import Link from 'next/link';
 
 export default function Navbar() {
@@ -26,9 +26,12 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3">
           <div className="w-8 h-8 bg-white text-zinc-950 rounded-sm flex items-center justify-center">
-            <Square size={18} strokeWidth={2.5} />
+            <ShowerHead size={18} strokeWidth={2.5} />
           </div>
-          <span className="text-base font-medium tracking-tight">Glass Box Design</span>
+          <div className="flex flex-col">
+            <span className="text-base font-medium tracking-tight leading-none">GLASS & RAILS</span>
+            <span className="text-[7px] font-medium tracking-widest text-zinc-400 leading-none mt-0.5">CUSTOM GLASS HANDRAILS & SHOWERS</span>
+          </div>
         </Link>
 
         {/* Desktop Links */}

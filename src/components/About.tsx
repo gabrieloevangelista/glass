@@ -32,7 +32,7 @@ export default function About() {
           {/* Detail Card */}
           <div className="bg-white p-12 md:p-16 flex flex-col justify-center border border-zinc-200 rounded-sm animate-on-scroll order-1 lg:order-2">
             <div className="flex items-center justify-between mb-10">
-              <span className="text-sm font-semibold text-zinc-900 tracking-wide">GLASS BOX DESIGN</span>
+              <span className="text-sm font-semibold text-zinc-900 tracking-wide">GLASS & RAILS</span>
               <span className="px-3 py-1 bg-green-50 text-green-700 text-[10px] uppercase tracking-wider font-bold rounded-sm border border-green-100">Local Business</span>
             </div>
             

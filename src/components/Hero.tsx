@@ -24,11 +24,11 @@ export default function Hero() {
             <span className="text-xs font-medium tracking-widest uppercase">Serving Los Angeles & Surrounding Areas</span>
           </div>
           <h1 className="text-4xl md:text-7xl font-medium text-white tracking-tight leading-[1.05] mb-8 animate-on-scroll">
-            Exquisite Glass Solutions <br />
-            <span className="text-white/60">for Modern Interiors.</span>
+            Premium Glass Handrails <br />
+            <span className="text-white/60">& Shower Enclosures.</span>
           </h1>
           <p className="text-lg text-zinc-300 max-w-xl font-light leading-relaxed animate-on-scroll">
-            Elevate your home with precision-crafted glass installations. From frameless shower screens to custom mirrors, we bring clarity and elegance to every space.
+            Elevate your home with precision-crafted glass installations. From frameless shower screens to custom glass handrails, we bring clarity, safety, and elegance to every space.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mt-10 animate-on-scroll">

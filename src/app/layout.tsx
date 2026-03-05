@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Glass Box Design | Custom Glass & Shower Screens Los Angeles",
-  description: "Premier Glass Installation Services in Los Angeles, CA. Custom frameless shower screens, mirrors, and glass splashbacks. Serving Beverly Hills, Santa Monica, and Greater LA.",
+  title: "Glass & Rails | Custom Glass Handrails & Shower Enclosures Los Angeles",
+  description: "Premier Glass Installation Services in Los Angeles, CA. Custom frameless shower screens, handrails, and glass enclosures. Serving Beverly Hills, Santa Monica, and Greater LA.",
 };
 
 export default function RootLayout({

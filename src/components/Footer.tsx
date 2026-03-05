@@ -1,4 +1,4 @@
-import { Square } from 'lucide-react';
+import { Square, ShowerHead } from 'lucide-react';
 import Link from 'next/link';
 
 export default function Footer() {
@@ -9,12 +9,15 @@ export default function Footer() {
           <div className="max-w-md mb-12 md:mb-0">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-10 h-10 bg-blue-600 rounded-sm flex items-center justify-center text-white">
-                <Square size={20} strokeWidth={2.5} />
+                <ShowerHead size={20} strokeWidth={2.5} />
               </div>
-              <h3 className="text-xl font-medium">Glass Box Design</h3>
+              <div>
+                <h3 className="text-xl font-medium leading-none">GLASS & RAILS</h3>
+                <p className="text-[10px] text-zinc-400 font-medium tracking-widest mt-1">CUSTOM GLASS HANDRAILS & SHOWER ENCLOSURES</p>
+              </div>
             </div>
             <p className="text-zinc-400 font-light leading-relaxed">
-              Professional shower screens, bathroom mirrors and glass splashback installation services in Los Angeles. <br />
+              Professional shower screens, custom glass handrails, and glass partition installation services in Los Angeles. <br />
               Serving Beverly Hills, Santa Monica, and Greater LA.
             </p>
           </div>
@@ -29,8 +32,8 @@ export default function Footer() {
           <div className="flex flex-col gap-6">
             <span className="text-white mb-2">Services</span>
             <Link href="#" className="hover:text-blue-400 transition">Shower Screens</Link>
-            <Link href="#" className="hover:text-blue-400 transition">Mirrors</Link>
-            <Link href="#" className="hover:text-blue-400 transition">Splashbacks</Link>
+            <Link href="#" className="hover:text-blue-400 transition">Glass Handrails</Link>
+            <Link href="#" className="hover:text-blue-400 transition">Glass Partitions</Link>
             <Link href="#" className="hover:text-blue-400 transition">Repairs</Link>
           </div>
           <div className="flex flex-col gap-6">
@@ -55,7 +58,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/5 pt-10 flex flex-col md:flex-row justify-between items-center text-[10px] text-zinc-600 uppercase tracking-widest">
-          <div>© 2024 Glass Box Design. All Rights Reserved.</div>
+          <div>© 2024 Glass & Rails. All Rights Reserved.</div>
         </div>
       </div>
     </footer>

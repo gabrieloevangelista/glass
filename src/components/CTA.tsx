@@ -9,7 +9,7 @@ export default function CTA() {
           Need Premium Glass Installation?
         </h2>
         <p className="text-blue-100 mb-10 max-w-md mx-auto font-light text-lg">
-          Contact Glass Box Design today for a free, no-obligation quote.
+          Contact Glass & Rails today for a free, no-obligation quote.
         </p>
         <div className="flex flex-col md:flex-row justify-center gap-4">
           <a href="sms:+16576786742" className="flex items-center justify-center gap-3 bg-white text-blue-600 px-8 py-4 rounded-sm hover:bg-zinc-100 transition shadow-xl group">

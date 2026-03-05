@@ -1,11 +1,30 @@
 "use client";
+import { useState } from 'react';
 import { Send, MapPin, Phone, Mail } from 'lucide-react';
 
 export default function Contact() {
+  const [formData, setFormData] = useState({
+    name: '',
+    phone: '',
+    email: '',
+    service: 'shower-screens',
+    message: ''
+  });
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+    setFormData({
+      ...formData,
+      [e.target.id]: e.target.value
+    });
+  };
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // In a real app, you'd handle form submission here (e.g., Server Actions or API route)
-    alert("Thank you! We will get back to you soon.");
+    
+    const textMessage = `Hello, I'm ${formData.name}. I'm interested in ${formData.service}. \n\nDetails:\nPhone: ${formData.phone}\nEmail: ${formData.email}\nMessage: ${formData.message}`;
+    
+    const encodedMessage = encodeURIComponent(textMessage);
+    window.location.href = `sms:+16576786742?&body=${encodedMessage}`;
   };
 
   return (
@@ -41,7 +60,7 @@ export default function Contact() {
                 <div>
                   <h4 className="font-semibold text-zinc-900 mb-1">Email Us</h4>
                   <p className="text-zinc-500 font-light mb-1">Send us your details anytime</p>
-                  <a href="mailto:info@glassboxdesign.com" className="text-blue-600 font-medium hover:underline">info@glassboxdesign.com</a>
+                  <a href="mailto:info@glassandrails.com" className="text-blue-600 font-medium hover:underline">info@glassandrails.com</a>
                 </div>
               </div>
 
@@ -62,25 +81,54 @@ export default function Contact() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label htmlFor="name" className="text-sm font-medium text-zinc-700">Name</label>
-                  <input type="text" id="name" required className="w-full px-4 py-3 rounded-md border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all bg-zinc-50/50" placeholder="Your Name" />
+                  <input 
+                    type="text" 
+                    id="name" 
+                    required 
+                    className="w-full px-4 py-3 rounded-md border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all bg-zinc-50/50" 
+                    placeholder="Your Name"
+                    value={formData.name}
+                    onChange={handleChange}
+                  />
                 </div>
                 <div className="space-y-2">
                   <label htmlFor="phone" className="text-sm font-medium text-zinc-700">Phone</label>
-                  <input type="tel" id="phone" required className="w-full px-4 py-3 rounded-md border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all bg-zinc-50/50" placeholder="(657) xxx-xxxx" />
+                  <input 
+                    type="tel" 
+                    id="phone" 
+                    required 
+                    className="w-full px-4 py-3 rounded-md border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all bg-zinc-50/50" 
+                    placeholder="(657) xxx-xxxx"
+                    value={formData.phone}
+                    onChange={handleChange}
+                  />
                 </div>
               </div>
               
               <div className="space-y-2">
                 <label htmlFor="email" className="text-sm font-medium text-zinc-700">Email</label>
-                <input type="email" id="email" required className="w-full px-4 py-3 rounded-md border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all bg-zinc-50/50" placeholder="you@example.com" />
+                <input 
+                  type="email" 
+                  id="email" 
+                  required 
+                  className="w-full px-4 py-3 rounded-md border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all bg-zinc-50/50" 
+                  placeholder="you@example.com"
+                  value={formData.email}
+                  onChange={handleChange}
+                />
               </div>
 
               <div className="space-y-2">
                 <label htmlFor="service" className="text-sm font-medium text-zinc-700">Service Needed</label>
-                <select id="service" className="w-full px-4 py-3 rounded-md border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all bg-zinc-50/50">
+                <select 
+                  id="service" 
+                  className="w-full px-4 py-3 rounded-md border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all bg-zinc-50/50"
+                  value={formData.service}
+                  onChange={handleChange}
+                >
                   <option value="shower-screens">Shower Screens</option>
-                  <option value="mirrors">Mirrors</option>
-                  <option value="splashbacks">Splashbacks</option>
+                  <option value="glass-handrails">Glass Handrails</option>
+                  <option value="glass-partitions">Glass Partitions</option>
                   <option value="installation">Full Installation</option>
                   <option value="other">Other</option>
                 </select>
@@ -88,12 +136,19 @@ export default function Contact() {
 
               <div className="space-y-2">
                 <label htmlFor="message" className="text-sm font-medium text-zinc-700">Message</label>
-                <textarea id="message" rows={4} className="w-full px-4 py-3 rounded-md border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all bg-zinc-50/50 resize-none" placeholder="Tell us about your project..."></textarea>
+                <textarea 
+                  id="message" 
+                  rows={4} 
+                  className="w-full px-4 py-3 rounded-md border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all bg-zinc-50/50 resize-none" 
+                  placeholder="Tell us about your project..."
+                  value={formData.message}
+                  onChange={handleChange}
+                ></textarea>
               </div>
 
               <button type="submit" className="w-full bg-blue-600 text-white font-semibold py-4 rounded-md hover:bg-blue-700 transition-colors flex items-center justify-center gap-2 shadow-lg shadow-blue-600/20">
                 <Send size={18} />
-                Send Message
+                Send via SMS
               </button>
             </form>
           </div>

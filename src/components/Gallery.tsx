@@ -3,21 +3,51 @@ import Image from 'next/image';
 const projects = [
   {
     image: "/images/freepik__glass-shower-box-corner-installation-frameless-gla__63816.png",
-    category: "Shower Screen",
-    title: "Frameless Glass Installation",
+    category: "Shower Enclosure",
+    title: "Frameless Glass Shower",
     location: "Beverly Hills, CA"
   },
   {
     image: "/images/freepik__glass-shower-box-frameless-clear-tempered-glass-ch__63815.png",
-    category: "Mirrors",
-    title: "Custom Vanity Mirror",
+    category: "Glass Handrails",
+    title: "Custom Staircase Railing",
     location: "Santa Monica, CA"
   },
   {
     image: "/images/freepik__glass-shower-box-frosted-glass-panels-brushed-nick__63814.png",
-    category: "Splashback",
-    title: "Kitchen Glass Splashback",
+    category: "Glass Partitions",
+    title: "Modern Office Partition",
     location: "West Hollywood, CA"
+  },
+  {
+    image: "/images/freepik__glass-shower-box-corner-installation-frameless-gla__63817.png",
+    category: "Shower Enclosure",
+    title: "Corner Shower Setup",
+    location: "Malibu, CA"
+  },
+  {
+    image: "/images/freepik__glass-shower-box-installing-corner-shower-enclosur__63820.png",
+    category: "Installation",
+    title: "Precision Glass Fitting",
+    location: "Pacific Palisades, CA"
+  },
+  {
+    image: "/images/freepik__glass-shower-box-installing-sliding-glass-door-ass__63821.png",
+    category: "Shower Enclosure",
+    title: "Sliding Glass Door",
+    location: "Venice Beach, CA"
+  },
+  {
+    image: "/images/freepik__glass-shower-box-installing__63819.png",
+    category: "Installation",
+    title: "Custom Glass Fitting",
+    location: "Bel Air, CA"
+  },
+  {
+    image: "/images/freepik__glass-shower-box__63818.png",
+    category: "Shower Enclosure",
+    title: "Modern Glass Design",
+    location: "Brentwood, CA"
   }
 ];
 

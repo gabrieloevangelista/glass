@@ -13,13 +13,13 @@ const testimonials = [
   { 
     name: "Michael T.", 
     role: "Client, Santa Monica", 
-    text: "Great price and excellent workmanship on our custom mirrors. They left the place spotless afterwards.",
+    text: "Great price and excellent workmanship on our new glass railing. They left the place spotless afterwards.",
     stars: 5
   },
   { 
     name: "Emily R.", 
     role: "Designer, West Hollywood", 
-    text: "We use Glass Box Design for all our high-end residential projects. Their attention to detail is unmatched in LA.",
+    text: "We use Glass & Rails for all our high-end residential projects. Their attention to detail is unmatched in LA.",
     stars: 5
   }
 ];
