@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Phone, MapPin, Award } from 'lucide-react';
+import { Phone } from 'lucide-react';
 import Link from 'next/link';
 
 export default function Hero() {
@@ -42,21 +42,7 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Trust Signals (Bottom Left) */}
-        <div className="absolute bottom-12 left-6 md:left-12 hidden md:flex flex-wrap gap-6 animate-on-scroll">
-          <div className="flex items-center gap-3 bg-zinc-950/50 backdrop-blur-md border border-white/10 px-4 py-3 rounded-full">
-            <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-            <span className="text-xs font-medium text-white tracking-wide">Fully Insured</span>
-          </div>
-          <div className="flex items-center gap-3 bg-zinc-950/50 backdrop-blur-md border border-white/10 px-4 py-3 rounded-full">
-            <MapPin size={14} className="text-blue-400" />
-            <span className="text-xs font-medium text-white tracking-wide">Los Angeles, CA</span>
-          </div>
-          <div className="flex items-center gap-3 bg-zinc-950/50 backdrop-blur-md border border-white/10 px-4 py-3 rounded-full">
-            <Award size={14} className="text-blue-400" />
-            <span className="text-xs font-medium text-white tracking-wide">Quality Guaranteed</span>
-          </div>
-        </div>
+
       </div>
     </header>
   );
