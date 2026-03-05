@@ -41,9 +41,9 @@ export default function Navbar() {
 
         {/* CTA & Mobile Toggle */}
         <div className="flex items-center gap-4">
-          <a href="tel:3105550123" className="hidden md:flex items-center gap-2 bg-white text-zinc-950 px-4 py-2 rounded-sm text-xs font-semibold hover:bg-zinc-200 transition-colors">
+          <a href="sms:+16576786742" className="hidden md:flex items-center gap-2 bg-white text-zinc-950 px-4 py-2 rounded-sm text-xs font-semibold hover:bg-zinc-200 transition-colors">
             <Phone size={14} strokeWidth={1.5} />
-            (310) 555-0123
+            +1 (657) 678-6742
           </a>
           {/* Hamburger Button */}
           <button onClick={toggleMenu} className="md:hidden text-zinc-400 hover:text-white transition-colors z-50">
@@ -73,8 +73,8 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="mt-auto mb-12 flex flex-col gap-4">
-          <a href="tel:3105550123" className="w-full py-4 bg-blue-600 text-white text-center uppercase text-xs font-semibold tracking-widest rounded-sm">
-            Call (310) 555-0123
+          <a href="sms:+16576786742" className="w-full py-4 bg-blue-600 text-white text-center uppercase text-xs font-semibold tracking-widest rounded-sm">
+            Text +1 (657) 678-6742
           </a>
         </div>
       </div>

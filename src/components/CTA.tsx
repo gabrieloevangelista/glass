@@ -12,11 +12,11 @@ export default function CTA() {
           Contact Glass Box Design today for a free, no-obligation quote.
         </p>
         <div className="flex flex-col md:flex-row justify-center gap-4">
-          <a href="tel:0434798198" className="flex items-center justify-center gap-3 bg-white text-blue-600 px-8 py-4 rounded-sm hover:bg-zinc-100 transition shadow-xl group">
+          <a href="sms:+16576786742" className="flex items-center justify-center gap-3 bg-white text-blue-600 px-8 py-4 rounded-sm hover:bg-zinc-100 transition shadow-xl group">
              <Phone size={20} strokeWidth={2} />
              <div className="text-left">
-                <div className="text-[10px] uppercase tracking-widest leading-none text-blue-400 mb-1">Call Us</div>
-                <div className="text-base font-bold leading-none text-zinc-900 group-hover:text-blue-700 transition-colors">0434 798 198</div>
+                <div className="text-[10px] uppercase tracking-widest leading-none text-blue-400 mb-1">Text Us</div>
+                <div className="text-base font-bold leading-none text-zinc-900 group-hover:text-blue-700 transition-colors">+1 (657) 678-6742</div>
              </div>
           </a>
            <Link href="#contact" className="flex items-center justify-center gap-3 bg-blue-700 text-white border border-blue-500 px-8 py-4 rounded-sm hover:bg-blue-800 transition">

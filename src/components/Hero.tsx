@@ -32,9 +32,9 @@ export default function Hero() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mt-10 animate-on-scroll">
-            <a href="tel:3105550123" className="bg-blue-600 text-white px-8 py-4 rounded-full font-medium text-xs tracking-widest uppercase flex items-center justify-center gap-3 hover:bg-blue-500 transition-colors shadow-[0_0_30px_rgba(37,99,235,0.2)]">
+            <a href="sms:+16576786742" className="bg-blue-600 text-white px-8 py-4 rounded-full font-medium text-xs tracking-widest uppercase flex items-center justify-center gap-3 hover:bg-blue-500 transition-colors shadow-[0_0_30px_rgba(37,99,235,0.2)]">
               <Phone size={16} strokeWidth={1.5} />
-              (310) 555-0123
+              +1 (657) 678-6742
             </a>
             <Link href="#contact" className="bg-white/10 backdrop-blur-sm border border-white/20 text-white px-8 py-4 rounded-full font-medium text-xs tracking-widest uppercase flex items-center justify-center gap-3 hover:bg-white hover:text-zinc-900 transition-colors">
               Get a Free Quote

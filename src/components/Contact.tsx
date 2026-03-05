@@ -28,9 +28,9 @@ export default function Contact() {
                   <Phone size={20} />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-zinc-900 mb-1">Call Us</h4>
+                  <h4 className="font-semibold text-zinc-900 mb-1">Text Us</h4>
                   <p className="text-zinc-500 font-light mb-1">Mon-Fri from 7am to 5pm</p>
-                  <a href="tel:3105550123" className="text-blue-600 font-medium hover:underline">(310) 555-0123</a>
+                  <a href="sms:+16576786742" className="text-blue-600 font-medium hover:underline">+1 (657) 678-6742</a>
                 </div>
               </div>
 
@@ -66,7 +66,7 @@ export default function Contact() {
                 </div>
                 <div className="space-y-2">
                   <label htmlFor="phone" className="text-sm font-medium text-zinc-700">Phone</label>
-                  <input type="tel" id="phone" required className="w-full px-4 py-3 rounded-md border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all bg-zinc-50/50" placeholder="(310) xxx-xxxx" />
+                  <input type="tel" id="phone" required className="w-full px-4 py-3 rounded-md border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all bg-zinc-50/50" placeholder="(657) xxx-xxxx" />
                 </div>
               </div>
               

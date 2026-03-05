@@ -19,8 +19,8 @@ export default function Footer() {
             </p>
           </div>
           <div>
-            <a href="tel:3105550123" className="inline-block bg-white text-zinc-950 px-8 py-3 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-blue-50 transition transform hover:-translate-y-1">
-              Call (310) 555-0123
+            <a href="sms:+16576786742" className="inline-block bg-white text-zinc-950 px-8 py-3 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-blue-50 transition transform hover:-translate-y-1">
+              Text +1 (657) 678-6742
             </a>
           </div>
         </div>
@@ -48,7 +48,7 @@ export default function Footer() {
           </div>
           <div className="flex flex-col gap-6">
             <span className="text-white mb-2">Contact</span>
-            <span className="text-white">(310) 555-0123</span>
+            <span className="text-white">+1 (657) 678-6742</span>
             <span className="text-zinc-500">Los Angeles, CA</span>
             <span className="text-zinc-500">Residential & Commercial</span>
           </div>
