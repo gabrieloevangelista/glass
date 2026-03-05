@@ -7,19 +7,19 @@ const testimonials = [
   { 
     name: "Sarah J.", 
     role: "Homeowner, Beverly Hills", 
-    text: "The frameless shower screen completely transformed our bathroom. Professional installation and looks amazing.",
+    text: "The custom frameless shower enclosure they installed is stunning. It completely modernized our master bathroom. Highly recommend for their precision and speed.",
     stars: 5
   },
   { 
     name: "Michael T.", 
-    role: "Client, Santa Monica", 
-    text: "Great price and excellent workmanship on our new glass railing. They left the place spotless afterwards.",
+    role: "Homeowner, Santa Monica", 
+    text: "We needed a glass railing for our new deck to keep the ocean view. Glass & Rails delivered perfection. Sturdy, crystal clear, and installed in one day.",
     stars: 5
   },
   { 
     name: "Emily R.", 
-    role: "Designer, West Hollywood", 
-    text: "We use Glass & Rails for all our high-end residential projects. Their attention to detail is unmatched in LA.",
+    role: "Interior Designer, West Hollywood", 
+    text: "I partner with Glass & Rails for all my renovation projects. From shower doors to office partitions, their glass work is consistently flawless.",
     stars: 5
   }
 ];
