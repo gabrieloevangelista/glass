@@ -58,7 +58,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/5 pt-10 flex flex-col md:flex-row justify-between items-center text-[10px] text-zinc-600 uppercase tracking-widest">
-          <div>© 2024 Glass & Rails. All Rights Reserved.</div>
+          <div>© {new Date().getFullYear()} Glass & Rails. All Rights Reserved.</div>
         </div>
       </div>
     </footer>
