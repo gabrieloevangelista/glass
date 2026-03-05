@@ -1,0 +1,63 @@
+import Image from 'next/image';
+import { Phone, MapPin, Award } from 'lucide-react';
+import Link from 'next/link';
+
+export default function Hero() {
+  return (
+    <header className="relative w-full h-[650px] bg-zinc-900 overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/92bad968-bd99-4d0f-8b23-3e9ffc455334_3840w.jpg"
+          alt="Modern Bathroom Glass Shower Screen"
+          fill
+          className="object-cover opacity-40"
+          priority
+        />
+      </div>
+      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/20 to-black/90 z-0"></div>
+
+      <div className="z-10 flex flex-col h-full max-w-screen-xl mx-auto px-6 relative justify-center">
+        <div className="max-w-4xl pt-20">
+          <div className="flex items-center gap-3 text-blue-400 mb-6 animate-on-scroll">
+            <span className="w-8 h-[1px] bg-blue-400"></span>
+            <span className="text-xs font-medium tracking-widest uppercase">Serving Los Angeles & Surrounding Areas</span>
+          </div>
+          <h1 className="text-4xl md:text-7xl font-medium text-white tracking-tight leading-[1.05] mb-8 animate-on-scroll">
+            Exquisite Glass Solutions <br />
+            <span className="text-white/60">for Modern Interiors.</span>
+          </h1>
+          <p className="text-lg text-zinc-300 max-w-xl font-light leading-relaxed animate-on-scroll">
+            Elevate your home with precision-crafted glass installations. From frameless shower screens to custom mirrors, we bring clarity and elegance to every space.
+          </p>
+          
+          <div className="flex flex-col sm:flex-row gap-4 mt-10 animate-on-scroll">
+            <a href="tel:3105550123" className="bg-blue-600 text-white px-8 py-4 rounded-full font-medium text-xs tracking-widest uppercase flex items-center justify-center gap-3 hover:bg-blue-500 transition-colors shadow-[0_0_30px_rgba(37,99,235,0.2)]">
+              <Phone size={16} strokeWidth={1.5} />
+              (310) 555-0123
+            </a>
+            <Link href="#contact" className="bg-white/10 backdrop-blur-sm border border-white/20 text-white px-8 py-4 rounded-full font-medium text-xs tracking-widest uppercase flex items-center justify-center gap-3 hover:bg-white hover:text-zinc-900 transition-colors">
+              Get a Free Quote
+            </Link>
+          </div>
+        </div>
+
+        {/* Trust Signals (Bottom Left) */}
+        <div className="absolute bottom-12 left-6 md:left-12 hidden md:flex flex-wrap gap-6 animate-on-scroll">
+          <div className="flex items-center gap-3 bg-zinc-950/50 backdrop-blur-md border border-white/10 px-4 py-3 rounded-full">
+            <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+            <span className="text-xs font-medium text-white tracking-wide">Fully Insured</span>
+          </div>
+          <div className="flex items-center gap-3 bg-zinc-950/50 backdrop-blur-md border border-white/10 px-4 py-3 rounded-full">
+            <MapPin size={14} className="text-blue-400" />
+            <span className="text-xs font-medium text-white tracking-wide">Los Angeles, CA</span>
+          </div>
+          <div className="flex items-center gap-3 bg-zinc-950/50 backdrop-blur-md border border-white/10 px-4 py-3 rounded-full">
+            <Award size={14} className="text-blue-400" />
+            <span className="text-xs font-medium text-white tracking-wide">Quality Guaranteed</span>
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+}
