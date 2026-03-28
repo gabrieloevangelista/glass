@@ -1,8 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --font-geist-sans: "Geist", sans-serif;
-  --font-geist-mono: "Geist Mono", monospace;
+  --font-inter: "Inter", sans-serif;
   --color-primary: #47869C;
   --color-primary-dark: #3a6f82;
   --color-primary-light: #5a9bb2;
