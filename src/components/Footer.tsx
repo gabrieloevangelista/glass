@@ -9,9 +9,9 @@ export default function Footer() {
           <div className="max-w-md mb-12 md:mb-0">
             <div className="mb-6">
               <div className="relative w-48 h-12">
-                <Image 
-                  src="/logo.png" 
-                  alt="Glass & Rails Logo" 
+                <Image
+                  src="/logo.png"
+                  alt="Glass & Rails Logo"
                   fill
                   className="object-contain object-left brightness-0 invert"
                 />
@@ -23,7 +23,7 @@ export default function Footer() {
             </p>
           </div>
           <div>
-            <a href="sms:+16576786742" className="inline-block bg-white text-zinc-950 px-8 py-3 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-primary/10 hover:text-white transition transform hover:-translate-y-1 border border-white/20">
+            <a href="sms:+16576786742" className="ios-glass-btn inline-flex items-center gap-2 text-white px-8 py-3 text-xs font-bold uppercase tracking-widest">
               Text +1 (657) 678-6742
             </a>
           </div>

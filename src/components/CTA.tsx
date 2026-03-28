@@ -19,7 +19,7 @@ export default function CTA() {
                 <div className="text-base font-bold leading-none text-zinc-900 group-hover:text-primary-dark transition-colors">+1 (657) 678-6742</div>
              </div>
           </a>
-           <Link href="#contact" className="flex items-center justify-center gap-3 bg-white/10 text-white border border-white/30 px-8 py-4 rounded-sm hover:bg-white/20 transition">
+           <Link href="#contact" className="ios-glass-btn flex items-center justify-center gap-3 text-white px-8 py-4">
               <Mail size={20} strokeWidth={2} />
               <div className="text-left">
                   <div className="text-[10px] uppercase tracking-widest leading-none text-white/70 mb-1">Email Quote</div>
