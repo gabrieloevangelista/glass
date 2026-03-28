@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Footer() {
@@ -7,8 +8,14 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between mb-20">
           <div className="max-w-md mb-12 md:mb-0">
             <div className="mb-6">
-              <h3 className="text-xl font-medium leading-none">GLASS & RAILS</h3>
-              <p className="text-[10px] text-zinc-400 font-medium tracking-widest mt-1">CUSTOM GLASS HANDRAILS & SHOWER ENCLOSURES</p>
+              <div className="relative w-48 h-12">
+                <Image 
+                  src="/logo.png" 
+                  alt="Glass & Rails Logo" 
+                  fill
+                  className="object-contain object-left brightness-0 invert"
+                />
+              </div>
             </div>
             <p className="text-zinc-400 font-light leading-relaxed">
               Professional shower screens, custom glass handrails, and glass partition installation services in Los Angeles. <br />

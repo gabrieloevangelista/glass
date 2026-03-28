@@ -36,7 +36,7 @@ export default function Hero() {
               <Phone size={16} strokeWidth={1.5} />
               +1 (657) 678-6742
             </a>
-            <Link href="#contact" className="bg-white/10 backdrop-blur-sm border border-white/20 text-white px-8 py-4 rounded-full font-medium text-xs tracking-widest uppercase flex items-center justify-center gap-3 hover:bg-white hover:text-zinc-900 transition-colors">
+            <Link href="#contact" className="ios-glass-btn text-white px-8 py-4 font-medium text-xs tracking-widest uppercase flex items-center justify-center gap-3">
               Get a Free Quote
             </Link>
           </div>
