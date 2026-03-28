@@ -47,7 +47,7 @@ export default function Navbar() {
 
         {/* CTA & Mobile Toggle */}
         <div className="flex items-center gap-4">
-          <a href="sms:+16576786742" className="hidden md:flex items-center gap-2 bg-zinc-950 text-white px-4 py-2 rounded-sm text-xs font-semibold hover:bg-zinc-800 transition-colors">
+          <a href="sms:+16576786742" className="hidden md:flex items-center gap-2 bg-zinc-950 text-white px-4 py-2 rounded-full text-xs font-semibold hover:bg-zinc-800 transition-colors">
             <Phone size={14} strokeWidth={1.5} />
             +1 (657) 678-6742
           </a>
@@ -79,7 +79,7 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="mt-auto mb-12 flex flex-col gap-4">
-          <a href="sms:+16576786742" className="w-full py-4 bg-zinc-950 text-white text-center uppercase text-xs font-semibold tracking-widest rounded-sm">
+          <a href="sms:+16576786742" className="w-full py-4 bg-zinc-950 text-white text-center uppercase text-xs font-semibold tracking-widest rounded-full">
             Text +1 (657) 678-6742
           </a>
         </div>

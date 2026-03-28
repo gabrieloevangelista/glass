@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { Clock, Wallet, ShieldCheck, ArrowRight } from 'lucide-react';
 
 export default function About() {
@@ -12,31 +11,15 @@ export default function About() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {/* Image Card */}
-          <div className="overflow-hidden group animate-on-scroll order-2 lg:order-1 bg-rose-600 rounded-sm relative h-full min-h-[400px]">
-            <div className="relative w-full h-full">
-                <Image
-                src="/images/freepik__a-lone-contractor-of-south-asian-descent-wearing-a__63822.png"
-                alt="Modern Glass Bathroom"
-                fill
-                className="transition duration-1000 group-hover:scale-105 filter object-cover brightness-95"
-                />
-            </div>
-            <div className="absolute bottom-6 left-6 text-white z-10">
-              <div className="text-xs font-mono text-white/90 mb-1 bg-black/30 backdrop-blur-sm px-2 py-1 inline-block rounded-sm">SERVING LA COUNTY</div>
-              <div className="text-xl font-medium tracking-tight drop-shadow-md">We treat your home like our own.</div>
-            </div>
-          </div>
-
-          {/* Detail Card */}
-          <div className="bg-white p-8 md:p-10 flex flex-col justify-center border border-zinc-200 rounded-sm animate-on-scroll order-1 lg:order-2">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {/* Detail Card – spans full row */}
+          <div className="lg:col-span-3 bg-white p-8 md:p-10 flex flex-col justify-center border border-zinc-200 rounded-sm animate-on-scroll">
             <div className="flex items-center justify-between mb-10">
               <span className="text-sm font-semibold text-zinc-900 tracking-wide">GLASS & RAILS</span>
               <span className="px-3 py-1 bg-green-50 text-green-700 text-[10px] uppercase tracking-wider font-bold rounded-sm border border-green-100">Local Business</span>
             </div>
             
-            <div className="space-y-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="flex gap-4">
                 <div className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0">
                   <Clock size={16} />
@@ -75,5 +58,6 @@ export default function About() {
         </div>
       </div>
     </section>
+
   );
 }

@@ -12,7 +12,7 @@ export default function CTA() {
           Contact Glass & Rails today for a free, no-obligation quote.
         </p>
         <div className="flex flex-col md:flex-row justify-center gap-4">
-          <a href="sms:+16576786742" className="flex items-center justify-center gap-3 bg-white text-primary px-8 py-4 rounded-sm hover:bg-zinc-100 transition shadow-xl group">
+          <a href="sms:+16576786742" className="flex items-center justify-center gap-3 bg-white text-primary px-8 py-4 rounded-full hover:bg-zinc-100 transition shadow-xl group">
              <Phone size={20} strokeWidth={2} />
              <div className="text-left">
                 <div className="text-[10px] uppercase tracking-widest leading-none text-primary/70 mb-1">Text Us</div>

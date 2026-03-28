@@ -146,7 +146,7 @@ export default function Contact() {
                 ></textarea>
               </div>
 
-              <button type="submit" className="w-full bg-primary text-white font-semibold py-4 rounded-md hover:bg-primary-dark transition-colors flex items-center justify-center gap-2 shadow-lg shadow-primary/20">
+              <button type="submit" className="w-full bg-primary text-white font-semibold py-4 rounded-full hover:bg-primary-dark transition-colors flex items-center justify-center gap-2 shadow-lg shadow-primary/20">
                 <Send size={18} />
                 Send via SMS
               </button>
