@@ -30,12 +30,6 @@ const projects = [
     location: "Malibu, CA"
   },
   {
-    image: "/images/freepik__glass-shower-box-installing-corner-shower-enclosur__63820.png",
-    category: "Installation",
-    title: "Precision Glass Fitting",
-    location: "Pacific Palisades, CA"
-  },
-  {
     image: "/images/freepik__glass-shower-box-installing-sliding-glass-door-ass__63821.png",
     category: "Shower Enclosure",
     title: "Sliding Glass Door",
