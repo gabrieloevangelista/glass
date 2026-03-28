@@ -35,7 +35,7 @@ export default function Contact() {
       <div className="max-w-screen-xl mx-auto px-6 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           <div className="animate-on-scroll">
-            <span className="text-blue-600 font-medium tracking-widest uppercase text-xs mb-4 block">Get In Touch</span>
+            <span className="text-primary font-medium tracking-widest uppercase text-xs mb-4 block">Get In Touch</span>
             <h2 className="text-4xl md:text-6xl font-medium tracking-tight text-zinc-900 mb-8">Let's Discuss Your Project</h2>
             <p className="text-zinc-600 text-lg font-light mb-12 max-w-md leading-relaxed">
               Ready to transform your bathroom? Contact us for a free, no-obligation quote. We're here to help with all your custom glass needs.
@@ -43,29 +43,29 @@ export default function Contact() {
 
             <div className="space-y-8">
               <div className="flex items-start gap-6">
-                <div className="w-12 h-12 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 shrink-0">
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
                   <Phone size={20} />
                 </div>
                 <div>
                   <h4 className="font-semibold text-zinc-900 mb-1">Text Us</h4>
                   <p className="text-zinc-500 font-light mb-1">Mon-Fri from 7am to 5pm</p>
-                  <a href="sms:+16576786742" className="text-blue-600 font-medium hover:underline">+1 (657) 678-6742</a>
+                  <a href="sms:+16576786742" className="text-primary font-medium hover:underline">+1 (657) 678-6742</a>
                 </div>
               </div>
 
               <div className="flex items-start gap-6">
-                <div className="w-12 h-12 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 shrink-0">
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
                   <Mail size={20} />
                 </div>
                 <div>
                   <h4 className="font-semibold text-zinc-900 mb-1">Email Us</h4>
                   <p className="text-zinc-500 font-light mb-1">Send us your details anytime</p>
-                  <a href="mailto:info@glassandrails.com" className="text-blue-600 font-medium hover:underline">info@glassandrails.com</a>
+                  <a href="mailto:info@glassandrails.com" className="text-primary font-medium hover:underline">info@glassandrails.com</a>
                 </div>
               </div>
 
               <div className="flex items-start gap-6">
-                <div className="w-12 h-12 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 shrink-0">
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
                   <MapPin size={20} />
                 </div>
                 <div>
@@ -85,7 +85,7 @@ export default function Contact() {
                     type="text" 
                     id="name" 
                     required 
-                    className="w-full px-4 py-3 rounded-md border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all bg-zinc-50/50" 
+                    className="w-full px-4 py-3 rounded-md border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all bg-zinc-50/50" 
                     placeholder="Your Name"
                     value={formData.name}
                     onChange={handleChange}
@@ -97,7 +97,7 @@ export default function Contact() {
                     type="tel" 
                     id="phone" 
                     required 
-                    className="w-full px-4 py-3 rounded-md border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all bg-zinc-50/50" 
+                    className="w-full px-4 py-3 rounded-md border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all bg-zinc-50/50" 
                     placeholder="(657) xxx-xxxx"
                     value={formData.phone}
                     onChange={handleChange}
@@ -111,7 +111,7 @@ export default function Contact() {
                   type="email" 
                   id="email" 
                   required 
-                  className="w-full px-4 py-3 rounded-md border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all bg-zinc-50/50" 
+                  className="w-full px-4 py-3 rounded-md border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all bg-zinc-50/50" 
                   placeholder="you@example.com"
                   value={formData.email}
                   onChange={handleChange}
@@ -122,7 +122,7 @@ export default function Contact() {
                 <label htmlFor="service" className="text-sm font-medium text-zinc-700">Service Needed</label>
                 <select 
                   id="service" 
-                  className="w-full px-4 py-3 rounded-md border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all bg-zinc-50/50"
+                  className="w-full px-4 py-3 rounded-md border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all bg-zinc-50/50"
                   value={formData.service}
                   onChange={handleChange}
                 >
@@ -139,14 +139,14 @@ export default function Contact() {
                 <textarea 
                   id="message" 
                   rows={4} 
-                  className="w-full px-4 py-3 rounded-md border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 transition-all bg-zinc-50/50 resize-none" 
+                  className="w-full px-4 py-3 rounded-md border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all bg-zinc-50/50 resize-none" 
                   placeholder="Tell us about your project..."
                   value={formData.message}
                   onChange={handleChange}
                 ></textarea>
               </div>
 
-              <button type="submit" className="w-full bg-blue-600 text-white font-semibold py-4 rounded-md hover:bg-blue-700 transition-colors flex items-center justify-center gap-2 shadow-lg shadow-blue-600/20">
+              <button type="submit" className="w-full bg-primary text-white font-semibold py-4 rounded-md hover:bg-primary-dark transition-colors flex items-center justify-center gap-2 shadow-lg shadow-primary/20">
                 <Send size={18} />
                 Send via SMS
               </button>

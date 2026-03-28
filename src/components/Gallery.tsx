@@ -124,7 +124,7 @@ export default function Gallery() {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8 animate-on-scroll">
           <div className="max-w-xl">
             <div className="flex items-center gap-2 mb-4">
-              <span className="w-1.5 h-1.5 bg-blue-600 rounded-full"></span>
+              <span className="w-1.5 h-1.5 bg-primary rounded-full"></span>
               <span className="text-xs font-bold text-zinc-400 uppercase tracking-widest">Our Portfolio</span>
             </div>
             <h2 className="text-4xl font-medium tracking-tight">Recent Projects</h2>
@@ -153,7 +153,7 @@ export default function Gallery() {
                 />
               </div>
               <div>
-                <h3 className="text-lg font-medium text-zinc-900 group-hover:text-blue-600 transition-colors">{project.title}</h3>
+                <h3 className="text-lg font-medium text-zinc-900 group-hover:text-primary transition-colors">{project.title}</h3>
                 <p className="text-xs text-zinc-500 mt-1 uppercase tracking-wide">{project.location}</p>
               </div>
             </div>

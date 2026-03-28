@@ -1,4 +1,3 @@
-import { Square, ShowerHead } from 'lucide-react';
 import Link from 'next/link';
 
 export default function Footer() {
@@ -7,14 +6,9 @@ export default function Footer() {
       <div className="max-w-screen-xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between mb-20">
           <div className="max-w-md mb-12 md:mb-0">
-            <div className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 bg-blue-600 rounded-sm flex items-center justify-center text-white">
-                <ShowerHead size={20} strokeWidth={2.5} />
-              </div>
-              <div>
-                <h3 className="text-xl font-medium leading-none">GLASS & RAILS</h3>
-                <p className="text-[10px] text-zinc-400 font-medium tracking-widest mt-1">CUSTOM GLASS HANDRAILS & SHOWER ENCLOSURES</p>
-              </div>
+            <div className="mb-6">
+              <h3 className="text-xl font-medium leading-none">GLASS & RAILS</h3>
+              <p className="text-[10px] text-zinc-400 font-medium tracking-widest mt-1">CUSTOM GLASS HANDRAILS & SHOWER ENCLOSURES</p>
             </div>
             <p className="text-zinc-400 font-light leading-relaxed">
               Professional shower screens, custom glass handrails, and glass partition installation services in Los Angeles. <br />
@@ -22,7 +16,7 @@ export default function Footer() {
             </p>
           </div>
           <div>
-            <a href="sms:+16576786742" className="inline-block bg-white text-zinc-950 px-8 py-3 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-blue-50 transition transform hover:-translate-y-1">
+            <a href="sms:+16576786742" className="inline-block bg-white text-zinc-950 px-8 py-3 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-primary/10 hover:text-white transition transform hover:-translate-y-1 border border-white/20">
               Text +1 (657) 678-6742
             </a>
           </div>
@@ -31,23 +25,23 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-12 text-xs text-zinc-500 mb-20 border-t border-white/10 pt-16 uppercase tracking-widest font-medium">
           <div className="flex flex-col gap-6">
             <span className="text-white mb-2">Services</span>
-            <Link href="#" className="hover:text-blue-400 transition">Shower Screens</Link>
-            <Link href="#" className="hover:text-blue-400 transition">Glass Handrails</Link>
-            <Link href="#" className="hover:text-blue-400 transition">Glass Partitions</Link>
-            <Link href="#" className="hover:text-blue-400 transition">Repairs</Link>
+            <Link href="#" className="hover:text-primary transition">Shower Screens</Link>
+            <Link href="#" className="hover:text-primary transition">Glass Handrails</Link>
+            <Link href="#" className="hover:text-primary transition">Glass Partitions</Link>
+            <Link href="#" className="hover:text-primary transition">Repairs</Link>
           </div>
           <div className="flex flex-col gap-6">
             <span className="text-white mb-2">Areas</span>
-            <Link href="#" className="hover:text-blue-400 transition">Beverly Hills</Link>
-            <Link href="#" className="hover:text-blue-400 transition">Santa Monica</Link>
-            <Link href="#" className="hover:text-blue-400 transition">West Hollywood</Link>
-            <Link href="#" className="hover:text-blue-400 transition">Malibu</Link>
+            <Link href="#" className="hover:text-primary transition">Beverly Hills</Link>
+            <Link href="#" className="hover:text-primary transition">Santa Monica</Link>
+            <Link href="#" className="hover:text-primary transition">West Hollywood</Link>
+            <Link href="#" className="hover:text-primary transition">Malibu</Link>
           </div>
           <div className="flex flex-col gap-6">
             <span className="text-white mb-2">Company</span>
-            <Link href="#about" className="hover:text-blue-400 transition">About Us</Link>
-            <Link href="#gallery" className="hover:text-blue-400 transition">Recent Work</Link>
-            <Link href="#contact" className="hover:text-blue-400 transition">Contact</Link>
+            <Link href="#about" className="hover:text-primary transition">About Us</Link>
+            <Link href="#gallery" className="hover:text-primary transition">Recent Work</Link>
+            <Link href="#contact" className="hover:text-primary transition">Contact</Link>
           </div>
           <div className="flex flex-col gap-6">
             <span className="text-white mb-2">Contact</span>
@@ -64,3 +58,4 @@ export default function Footer() {
     </footer>
   );
 }
+

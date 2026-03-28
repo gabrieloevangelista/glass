@@ -17,8 +17,8 @@ export default function Icon() {
       // ImageResponse JSX element
       <div
         style={{
-          fontSize: 20,
-          background: '#2563eb', // blue-600
+          fontSize: 14,
+          background: '#47869C',
           width: '100%',
           height: '100%',
           display: 'flex',
@@ -27,9 +27,10 @@ export default function Icon() {
           color: 'white',
           borderRadius: '4px',
           fontWeight: 800,
+          letterSpacing: '-0.5px',
         }}
       >
-        TP
+        GR
       </div>
     ),
     {

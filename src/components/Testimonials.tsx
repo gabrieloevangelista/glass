@@ -43,13 +43,13 @@ export default function Testimonials() {
           <div className="flex gap-2">
             <button 
               onClick={prevSlide}
-              className="w-10 h-10 border border-zinc-300 bg-white rounded-full flex items-center justify-center text-zinc-500 hover:text-blue-600 hover:border-blue-600 transition duration-300"
+              className="w-10 h-10 border border-zinc-300 bg-white rounded-full flex items-center justify-center text-zinc-500 hover:text-primary hover:border-primary transition duration-300"
             >
               <ArrowLeft size={20} strokeWidth={1.5} />
             </button>
             <button 
               onClick={nextSlide}
-              className="w-10 h-10 border border-zinc-300 bg-white rounded-full flex items-center justify-center text-zinc-500 hover:text-blue-600 hover:border-blue-600 transition duration-300"
+              className="w-10 h-10 border border-zinc-300 bg-white rounded-full flex items-center justify-center text-zinc-500 hover:text-primary hover:border-primary transition duration-300"
             >
               <ArrowRight size={20} strokeWidth={1.5} />
             </button>
@@ -68,7 +68,7 @@ export default function Testimonials() {
                 style={{ opacity: currentIndex === i ? 1 : 0.3 }}
               >
                 <div className="md:col-span-12 bg-white p-12 md:p-16 border border-zinc-200 rounded-sm shadow-sm">
-                  <div className="flex gap-1 text-blue-500 mb-6">
+                  <div className="flex gap-1 text-primary mb-6">
                     {[...Array(t.stars)].map((_, j) => (
                       <Star key={j} size={20} fill="currentColor" strokeWidth={0} />
                     ))}

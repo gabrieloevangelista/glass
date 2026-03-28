@@ -3,6 +3,9 @@
 @theme {
   --font-geist-sans: "Geist", sans-serif;
   --font-geist-mono: "Geist Mono", monospace;
+  --color-primary: #47869C;
+  --color-primary-dark: #3a6f82;
+  --color-primary-light: #5a9bb2;
 }
 
 @layer utilities {

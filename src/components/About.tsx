@@ -7,7 +7,7 @@ export default function About() {
       <div className="max-w-screen-xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-end mb-8 animate-on-scroll">
           <div>
-            <span className="text-xs font-medium text-blue-600 uppercase tracking-widest">Why Choose Us</span>
+            <span className="text-xs font-medium text-primary uppercase tracking-widest">Why Choose Us</span>
             <h2 className="text-3xl font-medium text-zinc-900 mt-3 tracking-tight">Precision Glass <br/>& Expert Installation</h2>
           </div>
         </div>
@@ -38,7 +38,7 @@ export default function About() {
             
             <div className="space-y-8">
               <div className="flex gap-4">
-                <div className="w-8 h-8 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center shrink-0">
+                <div className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0">
                   <Clock size={16} />
                 </div>
                 <div>
@@ -47,7 +47,7 @@ export default function About() {
                 </div>
               </div>
               <div className="flex gap-4">
-                <div className="w-8 h-8 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center shrink-0">
+                <div className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0">
                   <Wallet size={16} />
                 </div>
                 <div>
@@ -56,7 +56,7 @@ export default function About() {
                 </div>
               </div>
               <div className="flex gap-4">
-                <div className="w-8 h-8 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center shrink-0">
+                <div className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0">
                   <ShieldCheck size={16} />
                 </div>
                 <div>
@@ -67,7 +67,7 @@ export default function About() {
             </div>
 
             <div className="mt-12 pt-8 border-t border-zinc-100">
-              <a href="#contact" className="flex items-center gap-2 text-xs font-bold text-zinc-900 uppercase tracking-widest hover:text-blue-600 transition-colors">
+              <a href="#contact" className="flex items-center gap-2 text-xs font-bold text-zinc-900 uppercase tracking-widest hover:text-primary transition-colors">
                 Request Quote <ArrowRight size={16} />
               </a>
             </div>
