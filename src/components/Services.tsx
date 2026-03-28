@@ -12,10 +12,10 @@ export default function Services() {
               <span className="text-xs text-zinc-500 font-medium uppercase tracking-widest">Our Expertise</span>
             </div>
             <h2 className="text-3xl md:text-5xl font-medium tracking-tight text-zinc-900 leading-[1.1]">
-              We specialize in custom glass solutions for modern homes. From 
-              <span className="text-zinc-400"> frameless shower screens</span> 
-              to elegant glass handrails, we deliver 
-              <span className="text-primary bg-primary/10 px-2 rounded-sm inline-block"> crystal clear quality.</span> 
+              We specialize in custom glass solutions for modern homes. From{' '}
+              <span className="text-zinc-400">frameless shower screens</span>{' '}
+              to elegant glass handrails, we deliver{' '}
+              <span className="text-primary bg-primary/10 px-2 rounded-sm inline-block">crystal clear quality.</span>
             </h2>
           </div>
 
