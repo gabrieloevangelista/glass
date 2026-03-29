@@ -12,10 +12,10 @@ export default function Services() {
               <span className="text-xs text-zinc-500 font-medium uppercase tracking-widest">Crafted Offerings</span>
             </div>
             <h2 className="text-3xl md:text-5xl font-medium tracking-tight text-zinc-900 leading-[1.1]">
-              Precision-engineered glass for spaces that demand{' '}
-              <span className="text-zinc-400">more than the ordinary.</span>{' '}
-              We craft every installation to{' '}
-              <span className="text-primary bg-primary/10 px-2 rounded-sm inline-block">an exacting standard.</span>
+              Custom glass for modern homes. From{' '}
+              <span className="text-zinc-400">frameless shower screens</span>{' '}
+              to glass railings, we deliver{' '}
+              <span className="text-primary bg-primary/10 px-2 rounded-sm inline-block">quality you can see.</span>
             </h2>
           </div>
 

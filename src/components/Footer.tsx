@@ -24,8 +24,8 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-zinc-400 font-light leading-relaxed">
-              Bespoke architectural glass for the most discerning homes in Los Angeles.<br />
-              Beverly Hills · Santa Monica · Malibu · Bel Air.
+              We install custom glass for homes across Los Angeles.<br />
+              Shower screens, railings, partitions and more.
             </p>
           </div>
           <div>

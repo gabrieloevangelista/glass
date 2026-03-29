@@ -6,8 +6,8 @@ export default function About() {
       <div className="max-w-screen-xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-end mb-8 animate-on-scroll">
           <div>
-            <span className="text-xs font-medium text-primary uppercase tracking-widest">Our Standard</span>
-            <h2 className="text-3xl font-medium text-zinc-900 mt-3 tracking-tight">Craftsmanship <br/>Without Compromise</h2>
+            <span className="text-xs font-medium text-primary uppercase tracking-widest">Why Us</span>
+            <h2 className="text-3xl font-medium text-zinc-900 mt-3 tracking-tight">We Take Pride <br/>in Our Work</h2>
           </div>
         </div>
 
@@ -25,8 +25,8 @@ export default function About() {
                   <Clock size={16} />
                 </div>
                 <div>
-                  <h4 className="text-base font-semibold text-zinc-900">Punctual & Professional</h4>
-                  <p className="text-sm text-zinc-500 mt-1 leading-relaxed">Your time is respected. We arrive prepared, work efficiently, and deliver on schedule — every time.</p>
+                  <h4 className="text-base font-semibold text-zinc-900">On Time, Every Time</h4>
+                  <p className="text-sm text-zinc-500 mt-1 leading-relaxed">We show up when we say we will. Your schedule matters, and we don't waste your day.</p>
                 </div>
               </div>
               <div className="flex gap-4">
@@ -34,8 +34,8 @@ export default function About() {
                   <Wallet size={16} />
                 </div>
                 <div>
-                  <h4 className="text-base font-semibold text-zinc-900">Upfront & Transparent</h4>
-                  <p className="text-sm text-zinc-500 mt-1 leading-relaxed">Clear, detailed proposals with no ambiguity. Your investment is fully understood before work begins.</p>
+                  <h4 className="text-base font-semibold text-zinc-900">No Hidden Costs</h4>
+                  <p className="text-sm text-zinc-500 mt-1 leading-relaxed">You get a clear quote before we start. No surprises, no extra charges added after the job.</p>
                 </div>
               </div>
               <div className="flex gap-4">
@@ -43,15 +43,15 @@ export default function About() {
                   <ShieldCheck size={16} />
                 </div>
                 <div>
-                  <h4 className="text-base font-semibold text-zinc-900">Meticulous Execution</h4>
-                  <p className="text-sm text-zinc-500 mt-1 leading-relaxed">From site preparation to final reveal — every millimetre is measured, every edge is finished to an uncompromising standard.</p>
+                  <h4 className="text-base font-semibold text-zinc-900">Clean Finish, Every Job</h4>
+                  <p className="text-sm text-zinc-500 mt-1 leading-relaxed">We measure carefully, cut cleanly and leave the space exactly how we found it. The glass does the talking.</p>
                 </div>
               </div>
             </div>
 
             <div className="mt-12 pt-8 border-t border-zinc-100">
               <a href="#contact" className="flex items-center gap-2 text-xs font-bold text-zinc-900 uppercase tracking-widest hover:text-primary transition-colors">
-                Schedule a Consultation <ArrowRight size={16} />
+                Get a Quote <ArrowRight size={16} />
               </a>
             </div>
           </div>

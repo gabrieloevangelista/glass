@@ -6,10 +6,10 @@ export default function CTA() {
     <section className="py-24 bg-[#345e6d] text-white text-center relative overflow-hidden shadow-2xl shadow-primary/20 md:mx-6 rounded-sm mb-12">
       <div className="max-w-screen-xl mx-auto px-6 relative z-10 animate-on-scroll">
         <h2 className="text-3xl md:text-5xl font-medium tracking-tight mb-6">
-          Exceptional Spaces Begin Here.
+          Ready to Get Started?
         </h2>
         <p className="text-white/80 mb-10 max-w-md mx-auto font-light text-lg">
-          Invite us into your project. A private consultation is the first step toward something extraordinary.
+          Get in touch and we'll put together a quote for your project. No pressure, just a honest conversation.
         </p>
         <div className="flex flex-col md:flex-row justify-center gap-4">
           <a href="sms:+16576786742" className="flex items-center justify-center gap-3 bg-white text-primary px-8 py-4 rounded-full hover:bg-zinc-100 transition shadow-xl group">

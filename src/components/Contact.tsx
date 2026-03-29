@@ -35,10 +35,10 @@ export default function Contact() {
       <div className="max-w-screen-xl mx-auto px-6 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           <div className="animate-on-scroll">
-            <span className="text-primary font-medium tracking-widest uppercase text-xs mb-4 block">Private Consultation</span>
-            <h2 className="text-4xl md:text-6xl font-medium tracking-tight text-zinc-900 mb-8">Begin Your Project</h2>
+            <span className="text-primary font-medium tracking-widest uppercase text-xs mb-4 block">Get in Touch</span>
+            <h2 className="text-4xl md:text-6xl font-medium tracking-tight text-zinc-900 mb-8">Let's Talk About Your Project</h2>
             <p className="text-zinc-600 text-lg font-light mb-12 max-w-md leading-relaxed">
-              Every exceptional space starts with a conversation. Share your vision and we'll bring the expertise, precision, and materials to realize it — exactly as you imagined.
+              Tell us what you have in mind and we'll take it from there. We're quick to respond and happy to walk you through the options.
             </p>
 
             <div className="space-y-8">
@@ -48,7 +48,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-zinc-900 mb-1">Direct Line</h4>
-                  <p className="text-zinc-500 font-light mb-1">Mon – Fri, 7am – 5pm PST</p>
+                  <p className="text-zinc-500 font-light mb-1">Mon to Fri, 7am to 5pm</p>
                   <a href="sms:+16576786742" className="text-primary font-medium hover:underline">+1 (657) 678-6742</a>
                 </div>
               </div>
@@ -58,8 +58,8 @@ export default function Contact() {
                   <Mail size={20} />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-zinc-900 mb-1">Correspondence</h4>
-                  <p className="text-zinc-500 font-light mb-1">We respond within one business day</p>
+                  <h4 className="font-semibold text-zinc-900 mb-1">Email</h4>
+                  <p className="text-zinc-500 font-light mb-1">We get back to you within one business day</p>
                   <a href="mailto:info@semarglass.com" className="text-primary font-medium hover:underline">info@semarglass.com</a>
                 </div>
               </div>
@@ -69,8 +69,8 @@ export default function Contact() {
                   <MapPin size={20} />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-zinc-900 mb-1">Exclusive Coverage</h4>
-                  <p className="text-zinc-500 font-light">Los Angeles · Beverly Hills · Santa Monica · Malibu · Bel Air</p>
+                  <h4 className="font-semibold text-zinc-900 mb-1">Where We Work</h4>
+                  <p className="text-zinc-500 font-light">Los Angeles, Beverly Hills, Santa Monica, Malibu and Bel Air</p>
                 </div>
               </div>
             </div>

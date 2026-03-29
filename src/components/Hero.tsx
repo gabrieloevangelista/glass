@@ -24,11 +24,11 @@ export default function Hero() {
               <span className="text-xs font-medium tracking-widest uppercase">Los Angeles · Beverly Hills · Malibu</span>
             </div>
           <h1 className="text-4xl md:text-7xl font-medium text-white tracking-tight leading-[1.05] mb-8 animate-on-scroll">
-            Architectural Glass <br />
-            <span className="text-white/60">Refined to Perfection.</span>
+            Custom Glass Work <br />
+            <span className="text-white/60">Done Right.</span>
           </h1>
           <p className="text-lg text-zinc-300 max-w-xl font-light leading-relaxed animate-on-scroll">
-            Semar Glass Co. delivers bespoke glass installations for discerning homeowners across Los Angeles. Every detail — from the first measurement to the final polish — is executed with uncompromising precision.
+            We design and install custom glass for homes across Los Angeles. Shower enclosures, glass railings, partitions. Each job is handled with care, from the first measurement to the final clean-up.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mt-10 animate-on-scroll">
@@ -37,7 +37,7 @@ export default function Hero() {
               +1 (657) 678-6742
             </a>
             <Link href="#contact" className="ios-glass-btn text-white px-8 py-4 font-medium text-xs tracking-widest uppercase flex items-center justify-center gap-3">
-              Request a Private Consultation
+              Get a Free Quote
             </Link>
           </div>
         </div>
