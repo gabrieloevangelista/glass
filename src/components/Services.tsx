@@ -9,13 +9,13 @@ export default function Services() {
           <div className="lg:col-span-8 animate-on-scroll">
             <div className="flex items-center gap-2 mb-8">
               <Layers size={18} strokeWidth={1.5} className="text-primary" />
-              <span className="text-xs text-zinc-500 font-medium uppercase tracking-widest">Crafted Offerings</span>
+              <span className="text-xs text-zinc-500 font-medium uppercase tracking-widest">What We Do</span>
             </div>
             <h2 className="text-3xl md:text-5xl font-medium tracking-tight text-zinc-900 leading-[1.1]">
-              Custom glass for modern homes. From{' '}
-              <span className="text-zinc-400">frameless shower screens</span>{' '}
-              to glass railings, we deliver{' '}
-              <span className="text-primary bg-primary/10 px-2 rounded-sm inline-block">quality you can see.</span>
+              Specialists in{' '}
+              <span className="text-primary bg-primary/10 px-2 rounded-sm inline-block">frameless glass showers.</span>{' '}
+              Plus railings, partitions{' '}
+              <span className="text-zinc-400">and all things glass.</span>
             </h2>
           </div>
 

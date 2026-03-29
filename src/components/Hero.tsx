@@ -24,11 +24,11 @@ export default function Hero() {
               <span className="text-xs font-medium tracking-widest uppercase">Los Angeles · Beverly Hills · Malibu</span>
             </div>
           <h1 className="text-4xl md:text-7xl font-medium text-white tracking-tight leading-[1.05] mb-8 animate-on-scroll">
-            Custom Glass Work <br />
-            <span className="text-white/60">Done Right.</span>
+            Frameless Glass <br />
+            <span className="text-white/60">Shower Specialists.</span>
           </h1>
           <p className="text-lg text-zinc-300 max-w-xl font-light leading-relaxed animate-on-scroll">
-            We design and install custom glass for homes across Los Angeles. Shower enclosures, glass railings, partitions. Each job is handled with care, from the first measurement to the final clean-up.
+            We specialize in frameless glass shower enclosures for homes across Los Angeles. Clean lines, no visible hardware, and a finish that makes the whole bathroom look bigger.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mt-10 animate-on-scroll">
