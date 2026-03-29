@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Footer() {
@@ -8,13 +7,20 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between mb-20">
           <div className="max-w-md mb-12 md:mb-0">
             <div className="mb-6">
-              <div className="relative w-48 h-12">
-                <Image
-                  src="/logo.png"
-                  alt="Glass & Rails Logo"
-                  fill
-                  className="object-contain object-left brightness-0 invert"
-                />
+              <div className="flex items-center gap-2.5">
+                <svg width="26" height="26" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <polygon points="14,2 26,9 26,19 14,26 2,19 2,9" fill="none" stroke="white" strokeWidth="1.5"/>
+                  <polygon points="14,7 21,11 21,17 14,21 7,17 7,11" fill="none" stroke="white" strokeWidth="1" opacity="0.4"/>
+                  <line x1="14" y1="2" x2="14" y2="7" stroke="white" strokeWidth="1.5"/>
+                  <line x1="26" y1="9" x2="21" y2="11" stroke="white" strokeWidth="1.5"/>
+                  <line x1="26" y1="19" x2="21" y2="17" stroke="white" strokeWidth="1.5"/>
+                  <line x1="14" y1="26" x2="14" y2="21" stroke="white" strokeWidth="1.5"/>
+                  <line x1="2" y1="19" x2="7" y2="17" stroke="white" strokeWidth="1.5"/>
+                  <line x1="2" y1="9" x2="7" y2="11" stroke="white" strokeWidth="1.5"/>
+                </svg>
+                <span className="text-sm font-semibold tracking-tight text-white">
+                  Semar <span className="text-primary">Glass</span> Co.
+                </span>
               </div>
             </div>
             <p className="text-zinc-400 font-light leading-relaxed">
@@ -59,7 +65,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/5 pt-10 flex flex-col md:flex-row justify-between items-center text-[10px] text-zinc-600 uppercase tracking-widest">
-          <div>© {new Date().getFullYear()} Glass & Rails. All Rights Reserved.</div>
+          <div>© {new Date().getFullYear()} Semar Glass Co. All Rights Reserved.</div>
         </div>
       </div>
     </footer>

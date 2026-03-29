@@ -31,7 +31,7 @@ export default function AppleIcon() {
             fontFamily: 'sans-serif',
           }}
         >
-          GR
+          SG
         </span>
       </div>
     ),

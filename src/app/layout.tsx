@@ -9,16 +9,16 @@ const inter = Inter({
   weight: ["300", "400", "500", "600", "700"],
 });
 
-const siteUrl = "https://glassandrails.com";
+const siteUrl = "https://semarglass.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Glass & Rails | Custom Glass Handrails & Shower Enclosures Los Angeles",
-    template: "%s | Glass & Rails LA",
+    default: "Semar Glass Co. | Custom Glass Handrails & Shower Enclosures Los Angeles",
+    template: "%s | Semar Glass Co.",
   },
   description:
-    "Premier custom glass installation in Los Angeles, CA. Frameless shower screens, glass handrails, pool fencing & partitions. Serving Beverly Hills, Santa Monica, Malibu & Greater LA. Free quotes.",
+    "Premier custom glass installation in Los Angeles, CA. Frameless shower screens, glass handrails, pool fencing & partitions. Serving Beverly Hills, Santa Monica, Malibu & Greater LA. Free quotes — Semar Glass Co.",
   keywords: [
     "glass handrails Los Angeles",
     "frameless shower screens LA",
@@ -29,9 +29,9 @@ export const metadata: Metadata = {
     "glass & rails",
     "glass installation company LA",
   ],
-  authors: [{ name: "Glass & Rails", url: siteUrl }],
-  creator: "Glass & Rails",
-  publisher: "Glass & Rails",
+  authors: [{ name: "Semar Glass Co.", url: siteUrl }],
+  creator: "Semar Glass Co.",
+  publisher: "Semar Glass Co.",
   alternates: {
     canonical: siteUrl,
   },
@@ -39,8 +39,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: siteUrl,
-    siteName: "Glass & Rails",
-    title: "Glass & Rails | Custom Glass Handrails & Shower Enclosures Los Angeles",
+    siteName: "Semar Glass Co.",
+    title: "Semar Glass Co. | Custom Glass Handrails & Shower Enclosures Los Angeles",
     description:
       "Premium frameless shower screens, glass handrails & custom glass installation in Los Angeles. Serving Beverly Hills, Santa Monica, Malibu & Greater LA.",
     images: [
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Glass & Rails | Custom Glass Handrails & Shower Enclosures Los Angeles",
+    title: "Semar Glass Co. | Custom Glass Handrails & Shower Enclosures Los Angeles",
     description:
       "Premium frameless shower screens, glass handrails & custom glass installation in Los Angeles.",
     images: ["/images/hero.png"],
@@ -78,12 +78,12 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  name: "Glass & Rails",
+  name: "Semar Glass Co.",
   description:
     "Custom frameless shower screens, glass handrails, pool fencing and glass partitions in Los Angeles, CA.",
   url: siteUrl,
   telephone: "+16576786742",
-  email: "info@glassandrails.com",
+  email: "info@semarglass.com",
   address: {
     "@type": "PostalAddress",
     addressLocality: "Los Angeles",

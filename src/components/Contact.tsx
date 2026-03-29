@@ -60,7 +60,7 @@ export default function Contact() {
                 <div>
                   <h4 className="font-semibold text-zinc-900 mb-1">Email Us</h4>
                   <p className="text-zinc-500 font-light mb-1">Send us your details anytime</p>
-                  <a href="mailto:info@glassandrails.com" className="text-primary font-medium hover:underline">info@glassandrails.com</a>
+                  <a href="mailto:info@semarglass.com" className="text-primary font-medium hover:underline">info@semarglass.com</a>
                 </div>
               </div>
 

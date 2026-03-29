@@ -2,7 +2,6 @@
 import { useState } from 'react';
 import { Square, Phone, Menu, X, ArrowRight, ShowerHead } from 'lucide-react';
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,16 +24,22 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full z-50 border-b border-zinc-200/50 bg-white/95 backdrop-blur-md text-zinc-950">
       <div className="max-w-screen-xl mx-auto px-6 h-20 flex items-center justify-between relative z-50">
         {/* Logo */}
-        <Link href="/" className="flex items-center">
-          <div className="relative w-48 h-10 md:w-56 md:h-12 hover:opacity-90 transition-opacity">
-            <Image 
-              src="/logo.png" 
-              alt="Glass & Rails Logo" 
-              fill
-              className="object-contain object-left"
-              priority
-            />
-          </div>
+        <Link href="/" className="flex items-center gap-2.5 hover:opacity-80 transition-opacity">
+          {/* Icon */}
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="14,2 26,9 26,19 14,26 2,19 2,9" fill="none" stroke="#47869C" strokeWidth="1.5"/>
+            <polygon points="14,7 21,11 21,17 14,21 7,17 7,11" fill="none" stroke="#47869C" strokeWidth="1" opacity="0.5"/>
+            <line x1="14" y1="2" x2="14" y2="7" stroke="#47869C" strokeWidth="1.5"/>
+            <line x1="26" y1="9" x2="21" y2="11" stroke="#47869C" strokeWidth="1.5"/>
+            <line x1="26" y1="19" x2="21" y2="17" stroke="#47869C" strokeWidth="1.5"/>
+            <line x1="14" y1="26" x2="14" y2="21" stroke="#47869C" strokeWidth="1.5"/>
+            <line x1="2" y1="19" x2="7" y2="17" stroke="#47869C" strokeWidth="1.5"/>
+            <line x1="2" y1="9" x2="7" y2="11" stroke="#47869C" strokeWidth="1.5"/>
+          </svg>
+          {/* Wordmark */}
+          <span className="text-sm font-semibold tracking-tight text-zinc-900">
+            Semar <span className="text-primary">Glass</span> Co.
+          </span>
         </Link>
 
         {/* Desktop Links */}

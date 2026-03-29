@@ -15,7 +15,7 @@ export default function About() {
           {/* Detail Card – spans full row */}
           <div className="lg:col-span-3 bg-white p-8 md:p-10 flex flex-col justify-center border border-zinc-200 rounded-sm animate-on-scroll">
             <div className="flex items-center justify-between mb-10">
-              <span className="text-sm font-semibold text-zinc-900 tracking-wide">GLASS & RAILS</span>
+              <span className="text-sm font-semibold text-zinc-900 tracking-wide">SEMAR GLASS CO.</span>
               <span className="px-3 py-1 bg-green-50 text-green-700 text-[10px] uppercase tracking-wider font-bold rounded-sm border border-green-100">Local Business</span>
             </div>
             

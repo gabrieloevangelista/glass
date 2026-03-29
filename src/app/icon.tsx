@@ -41,7 +41,7 @@ export default function Icon() {
               fontFamily: 'sans-serif',
             }}
           >
-            GR
+            SG
           </span>
         </div>
       </div>
