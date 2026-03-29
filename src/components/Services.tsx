@@ -9,13 +9,13 @@ export default function Services() {
           <div className="lg:col-span-8 animate-on-scroll">
             <div className="flex items-center gap-2 mb-8">
               <Layers size={18} strokeWidth={1.5} className="text-primary" />
-              <span className="text-xs text-zinc-500 font-medium uppercase tracking-widest">Our Expertise</span>
+              <span className="text-xs text-zinc-500 font-medium uppercase tracking-widest">Crafted Offerings</span>
             </div>
             <h2 className="text-3xl md:text-5xl font-medium tracking-tight text-zinc-900 leading-[1.1]">
-              We specialize in custom glass solutions for modern homes. From{' '}
-              <span className="text-zinc-400">frameless shower screens</span>{' '}
-              to elegant glass handrails, we deliver{' '}
-              <span className="text-primary bg-primary/10 px-2 rounded-sm inline-block">crystal clear quality.</span>
+              Precision-engineered glass for spaces that demand{' '}
+              <span className="text-zinc-400">more than the ordinary.</span>{' '}
+              We craft every installation to{' '}
+              <span className="text-primary bg-primary/10 px-2 rounded-sm inline-block">an exacting standard.</span>
             </h2>
           </div>
 
@@ -26,19 +26,19 @@ export default function Services() {
               <div className="w-12 h-12 bg-zinc-50 rounded-full flex items-center justify-center border border-zinc-100 mb-6 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
                 <Square size={20} strokeWidth={1.5} />
               </div>
-              <h3 className="text-lg font-semibold text-zinc-900 mb-4 tracking-tight">Shower Screens</h3>
+              <h3 className="text-lg font-semibold text-zinc-900 mb-4 tracking-tight">Shower Enclosures</h3>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3 text-sm text-zinc-600 font-light">
                   <Check size={16} className="text-primary mt-0.5 shrink-0" />
-                  Frameless & Semi-frameless
+                  Frameless & semi-frameless systems
                 </li>
                 <li className="flex items-start gap-3 text-sm text-zinc-600 font-light">
                   <Check size={16} className="text-primary mt-0.5 shrink-0" />
-                  Sliding & Pivot Doors
+                  Sliding, pivot & hinged configurations
                 </li>
                 <li className="flex items-start gap-3 text-sm text-zinc-600 font-light">
                   <Check size={16} className="text-primary mt-0.5 shrink-0" />
-                  Custom sizing & installation
+                  Fully bespoke sizing & white-glove installation
                 </li>
               </ul>
             </div>
@@ -48,19 +48,19 @@ export default function Services() {
               <div className="w-12 h-12 bg-zinc-50 rounded-full flex items-center justify-center border border-zinc-100 mb-6 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
                 <Maximize size={20} strokeWidth={1.5} />
               </div>
-              <h3 className="text-lg font-semibold text-zinc-900 mb-4 tracking-tight">Glass Handrails</h3>
+              <h3 className="text-lg font-semibold text-zinc-900 mb-4 tracking-tight">Structural Glass Railings</h3>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3 text-sm text-zinc-600 font-light">
                   <Check size={16} className="text-primary mt-0.5 shrink-0" />
-                  Staircase Railings
+                  Staircase & interior feature railings
                 </li>
                 <li className="flex items-start gap-3 text-sm text-zinc-600 font-light">
                   <Check size={16} className="text-primary mt-0.5 shrink-0" />
-                  Balcony Glass
+                  Balcony & terrace glass barriers
                 </li>
                 <li className="flex items-start gap-3 text-sm text-zinc-600 font-light">
                   <Check size={16} className="text-primary mt-0.5 shrink-0" />
-                  Pool Fencing
+                  Infinity-edge pool fencing
                 </li>
               </ul>
             </div>
@@ -70,19 +70,19 @@ export default function Services() {
               <div className="w-12 h-12 bg-zinc-50 rounded-full flex items-center justify-center border border-zinc-100 mb-6 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
                 <Droplet size={20} strokeWidth={1.5} />
               </div>
-              <h3 className="text-lg font-semibold text-zinc-900 mb-4 tracking-tight">Custom Glass Work</h3>
+              <h3 className="text-lg font-semibold text-zinc-900 mb-4 tracking-tight">Bespoke Glass Interiors</h3>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3 text-sm text-zinc-600 font-light">
                   <Check size={16} className="text-primary mt-0.5 shrink-0" />
-                  Glass Partitions
+                  Office & residential glass partitions
                 </li>
                 <li className="flex items-start gap-3 text-sm text-zinc-600 font-light">
                   <Check size={16} className="text-primary mt-0.5 shrink-0" />
-                  Wine Cellars
+                  Climate-controlled wine cellars
                 </li>
                 <li className="flex items-start gap-3 text-sm text-zinc-600 font-light">
                   <Check size={16} className="text-primary mt-0.5 shrink-0" />
-                  Toughened safety glass
+                  Structural toughened & laminated glass
                 </li>
               </ul>
             </div>

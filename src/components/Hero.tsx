@@ -19,16 +19,16 @@ export default function Hero() {
 
       <div className="z-10 flex flex-col h-full max-w-screen-xl mx-auto px-6 relative justify-center">
         <div className="max-w-4xl pt-20">
-          <div className="flex items-center gap-3 text-primary mb-6 animate-on-scroll">
-            <span className="w-8 h-[1px] bg-primary"></span>
-            <span className="text-xs font-medium tracking-widest uppercase">Serving Los Angeles & Surrounding Areas</span>
-          </div>
+            <div className="flex items-center gap-3 text-primary mb-6 animate-on-scroll">
+              <span className="w-8 h-[1px] bg-primary"></span>
+              <span className="text-xs font-medium tracking-widest uppercase">Los Angeles · Beverly Hills · Malibu</span>
+            </div>
           <h1 className="text-4xl md:text-7xl font-medium text-white tracking-tight leading-[1.05] mb-8 animate-on-scroll">
-            Premium Glass Handrails <br />
-            <span className="text-white/60">& Shower Enclosures.</span>
+            Architectural Glass <br />
+            <span className="text-white/60">Refined to Perfection.</span>
           </h1>
           <p className="text-lg text-zinc-300 max-w-xl font-light leading-relaxed animate-on-scroll">
-            Elevate your home with precision-crafted glass installations. From frameless shower screens to custom glass handrails, we bring clarity, safety, and elegance to every space.
+            Semar Glass Co. delivers bespoke glass installations for discerning homeowners across Los Angeles. Every detail — from the first measurement to the final polish — is executed with uncompromising precision.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mt-10 animate-on-scroll">
@@ -37,7 +37,7 @@ export default function Hero() {
               +1 (657) 678-6742
             </a>
             <Link href="#contact" className="ios-glass-btn text-white px-8 py-4 font-medium text-xs tracking-widest uppercase flex items-center justify-center gap-3">
-              Get a Free Quote
+              Request a Private Consultation
             </Link>
           </div>
         </div>
