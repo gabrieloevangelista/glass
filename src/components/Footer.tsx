@@ -24,8 +24,8 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-zinc-400 font-light leading-relaxed">
-              Professional shower screens, custom glass handrails, and glass partition installation services in Los Angeles. <br />
-              Serving Beverly Hills, Santa Monica, and Greater LA.
+              Bespoke architectural glass for the most discerning homes in Los Angeles.<br />
+              Beverly Hills · Santa Monica · Malibu · Bel Air.
             </p>
           </div>
           <div>
