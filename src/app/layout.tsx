@@ -127,7 +127,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <head>
         <Script
           id="local-business-schema"
@@ -136,6 +136,7 @@ export default function RootLayout({
         />
       </head>
       <body
+        suppressHydrationWarning
         className={`${inter.variable} font-[family-name:var(--font-inter)] antialiased bg-zinc-50 text-zinc-700 selection:bg-primary/15 selection:text-primary overflow-x-hidden`}
       >
         {children}
