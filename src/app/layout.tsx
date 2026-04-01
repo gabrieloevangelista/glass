@@ -73,6 +73,10 @@ export const metadata: Metadata = {
   other: {
     "theme-color": "#47869C",
   },
+  icons: {
+    icon: "/icon",
+    apple: "/apple-icon",
+  },
 };
 
 const jsonLd = {

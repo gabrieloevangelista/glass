@@ -19,31 +19,19 @@ export default function Icon() {
           alignItems: 'center',
           justifyContent: 'center',
           background: 'linear-gradient(135deg, #5a9bb2 0%, #47869C 50%, #3a6f82 100%)',
-          borderRadius: '7px',
+          borderRadius: '24%',
         }}
       >
-        <div
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            justifyContent: 'center',
-            gap: '0px',
-          }}
-        >
-          <span
-            style={{
-              color: 'white',
-              fontSize: 13,
-              fontWeight: 800,
-              letterSpacing: '-0.5px',
-              lineHeight: 1,
-              fontFamily: 'sans-serif',
-            }}
-          >
-            SG
-          </span>
-        </div>
+        <svg width="24" height="24" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <polygon points="14,2 26,9 26,19 14,26 2,19 2,9" stroke="white" strokeWidth="2"/>
+          <polygon points="14,7 21,11 21,17 14,21 7,17 7,11" stroke="white" strokeWidth="1.2" opacity="0.6"/>
+          <line x1="14" y1="2" x2="14" y2="7" stroke="white" strokeWidth="2"/>
+          <line x1="26" y1="9" x2="21" y2="11" stroke="white" strokeWidth="2"/>
+          <line x1="26" y1="19" x2="21" y2="17" stroke="white" strokeWidth="2"/>
+          <line x1="14" y1="26" x2="14" y2="21" stroke="white" strokeWidth="2"/>
+          <line x1="2" y1="19" x2="7" y2="17" stroke="white" strokeWidth="2"/>
+          <line x1="2" y1="9" x2="7" y2="11" stroke="white" strokeWidth="2"/>
+        </svg>
       </div>
     ),
     { ...size }
