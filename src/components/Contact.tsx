@@ -2,6 +2,29 @@
 import { useState } from 'react';
 import { Send, MapPin, Phone, Mail } from 'lucide-react';
 
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void;
+  }
+}
+
+function gtagReportConversion(url?: string) {
+  const callback = () => {
+    if (typeof url !== 'undefined') {
+      window.location.href = url;
+    }
+  };
+  if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+    window.gtag('event', 'conversion', {
+      send_to: 'AW-18067294664/8-TkCMKS6Z8cEMiTlKdD',
+      event_callback: callback,
+    });
+  } else {
+    callback();
+  }
+  return false;
+}
+
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
@@ -20,11 +43,13 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     const textMessage = `Hello, I'm ${formData.name}. I'm interested in ${formData.service}. \n\nDetails:\nPhone: ${formData.phone}\nEmail: ${formData.email}\nMessage: ${formData.message}`;
-    
+
     const encodedMessage = encodeURIComponent(textMessage);
-    window.location.href = `sms:+16576786742?&body=${encodedMessage}`;
+    const smsUrl = `sms:+16576786742?&body=${encodedMessage}`;
+
+    gtagReportConversion(smsUrl);
   };
 
   return (
