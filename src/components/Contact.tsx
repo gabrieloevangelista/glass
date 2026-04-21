@@ -41,15 +41,29 @@ export default function Contact() {
     });
   };
 
+  const isMobileDevice = () => {
+    if (typeof navigator === 'undefined') return false;
+    const ua = navigator.userAgent || '';
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(ua);
+  };
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
     const textMessage = `Hello, I'm ${formData.name}. I'm interested in ${formData.service}. \n\nDetails:\nPhone: ${formData.phone}\nEmail: ${formData.email}\nMessage: ${formData.message}`;
 
     const encodedMessage = encodeURIComponent(textMessage);
-    const smsUrl = `sms:+16576786742?&body=${encodedMessage}`;
 
-    gtagReportConversion(smsUrl);
+    let targetUrl: string;
+
+    if (isMobileDevice()) {
+      targetUrl = `sms:+16576786742?&body=${encodedMessage}`;
+    } else {
+      const subject = encodeURIComponent(`New Quote Request - ${formData.name}`);
+      targetUrl = `mailto:info@semarglass.com?subject=${subject}&body=${encodedMessage}`;
+    }
+
+    gtagReportConversion(targetUrl);
   };
 
   return (
